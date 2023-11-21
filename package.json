@@ -1,0 +1,27 @@
+{
+  "name": "avotime-api",
+  "version": "0.0.1",
+  "description": "appointment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "author": "amanturdev",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.0.1",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-run": "^3.0.2",
+    "eslint": "^8.54.0",
+    "rollup": "^4.5.0",
+    "source-map-support": "^0.5.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-plugin": "^4.5.1",
+    "pino-pretty": "^10.2.3"
+  }
+}
